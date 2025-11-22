@@ -55,28 +55,41 @@ Y= A⊕B
 
 # PROCEDURE:
 
-1.	Type the program in Quartus software.
+1.Type the program in Quartus software.
 
-	@@ -62,18 +67,22 @@ Y= A⊕B
-5.	For different input combinations generate the timing diagram.
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For different input combinations generate the timing diagram.
 
 
 # PROGRAM:
+module exp1(a, b, c1, c2, c3, c4, c5, c6, c7);    
+    input a, b;     
+    output c1, c2, c3, c4, c5, c6, c7;     
+    assign c1 = ~a;          
+    assign c2 = a & b;      
+    assign c3 = a | b;     
+    assign c4 = ~(a & b);     
+    assign c5 = ~(a | b);     
+    assign c6 = a ^ b;     
+    assign c7 = ~(a ^ b);      
+endmodule   
 
-![PROGRAM 1](https://github.com/user-attachments/assets/f5809f21-c652-4792-9c6a-fb269ab85662)
 
 
 
 # LOGIC SYMBOL AND TRUTH TABLE
-![TRUTH TABLE](https://github.com/user-attachments/assets/09b63b66-3731-457b-8d0e-946423803085)
-
-
-
 # RTL OUTPUT:
-![RTL OUPUT ](https://github.com/user-attachments/assets/481079e5-ee3c-4506-98ca-06c636524b07)
+<img width="1524" height="948" alt="Screenshot 2025-11-22 185511" src="https://github.com/user-attachments/assets/efb316bb-732e-49a1-850f-9dc12ba97f60" />
+
 
 # WAVEFORM:
-![Screenshot (7)](https://github.com/user-attachments/assets/e7196d3e-547d-4965-8e44-e93ffb083541)
+<img width="1553" height="929" alt="Screenshot 2025-11-22 185535" src="https://github.com/user-attachments/assets/f164e473-3e5d-4582-8295-087ca6256f13" />
+
 
 # RESULT:
 Studied and ve rified the table of logic gates in QUARTUS II using Verilog programming succesfully
