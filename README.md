@@ -91,7 +91,7 @@ endmodule
 
 
 # WAVEFORM:
-<img width="1905" height="942" alt="Screenshot 2025-11-26 134658" src="https://github.com/user-attachments/assets/31e3c947-74eb-40ec-a1bc-8d3f7189fc4f" />
+<img width="1886" height="836" alt="Screenshot 2025-11-26 134918" src="https://github.com/user-attachments/assets/c0312b58-d63b-4f2d-9228-d7a40fd1def7" />
 
 
 
