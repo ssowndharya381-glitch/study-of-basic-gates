@@ -83,15 +83,16 @@ endmodule
 
 
 # LOGIC SYMBOL AND TRUTH TABLE
-<img width="1054" height="482" alt="Screenshot 2025-11-23 142601" src="https://github.com/user-attachments/assets/2d7c08a6-2115-4bd5-9582-89396d91bbc2" />
-
+<img width="1106" height="324" alt="Screenshot 2025-11-25 184931" src="https://github.com/user-attachments/assets/d790f38f-932a-434e-98da-7af9bbc9f7f4" />
 
 # RTL OUTPUT:
-<img width="1074" height="560" alt="Screenshot 2025-11-23 142538" src="https://github.com/user-attachments/assets/ab040f71-3642-41aa-9c33-3336dfd30ab6" />
+<img width="1912" height="931" alt="Screenshot 2025-11-25 182629" src="https://github.com/user-attachments/assets/3204c60f-01ec-4dee-aabd-1834c863813a" />
+
 
 
 # WAVEFORM:
-<img width="1244" height="671" alt="Screenshot 2025-11-23 142457" src="https://github.com/user-attachments/assets/e65891b8-3afb-45b0-a2f7-05692953e96f" />
+<img width="1905" height="942" alt="Screenshot 2025-11-26 134658" src="https://github.com/user-attachments/assets/31e3c947-74eb-40ec-a1bc-8d3f7189fc4f" />
+
 
 
 # RESULT:
