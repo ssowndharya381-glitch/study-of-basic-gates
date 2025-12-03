@@ -67,31 +67,33 @@ Y= A⊕B
 
 
 # PROGRAM:
-module exp1(a, b, c1, c2, c3, c4, c5, c6, c7);    
-    input a, b;     
-    output c1, c2, c3, c4, c5, c6, c7;     
-    assign c1 = ~a;          
-    assign c2 = a & b;      
-    assign c3 = a | b;     
-    assign c4 = ~(a & b);     
-    assign c5 = ~(a | b);     
-    assign c6 = a ^ b;     
-    assign c7 = ~(a ^ b);      
-endmodule   
+module log_gate(a,b,c1,c2,c3,c4,c5,c6,c7);    
+input a,b;    
+output c1,c2,c3,c4,c5,c6,c7;    
+not g1(c1,a);    
+and g2(c2,a,b);     
+or g3(c3,a,b);    
+nand g4(c4,a,b);    
+nor g5(c5,a,b);    
+xor g6(c6,a,b);    
+xnor g7(c7,a,b);     
+endmodule    
 
 
 
 
 # LOGIC SYMBOL AND TRUTH TABLE
-<img width="1106" height="324" alt="Screenshot 2025-11-25 184931" src="https://github.com/user-attachments/assets/d790f38f-932a-434e-98da-7af9bbc9f7f4" />
+<img width="448" height="858" alt="Screenshot 2025-11-26 131936" src="https://github.com/user-attachments/assets/a73808f5-61a3-4549-a011-f61d2ce81e3c" />
+
 
 # RTL OUTPUT:
-<img width="1912" height="931" alt="Screenshot 2025-11-25 182629" src="https://github.com/user-attachments/assets/3204c60f-01ec-4dee-aabd-1834c863813a" />
+<img width="1613" height="789" alt="Screenshot 2025-12-03 125108" src="https://github.com/user-attachments/assets/4c360f0c-be53-4ba2-9d62-9ba3de562cca" />
+
 
 
 
 # WAVEFORM:
-<img width="1886" height="836" alt="Screenshot 2025-11-26 134918" src="https://github.com/user-attachments/assets/c0312b58-d63b-4f2d-9228-d7a40fd1def7" />
+<img width="1475" height="795" alt="Screenshot 2025-12-03 125128" src="https://github.com/user-attachments/assets/9cd72f9d-7541-441b-ba8c-14f43f169aaf" />
 
 
 
