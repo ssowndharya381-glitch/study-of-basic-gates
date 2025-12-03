@@ -1,7 +1,7 @@
 ###  NAME: SOWNDHARYA S
 
 ### REGISTER NUMBER:25009992
-### EXPERIMENT 1:STUDY OF LOGIC GATES 
+### EXPERIMENT 1:STUDY OF LOGIC GATES   
 # AIM:
 
 
@@ -98,5 +98,5 @@ endmodule
 
 
 # RESULT:
-Studied and ve rified the table of logic gates in QUARTUS II using Verilog programming succesfully
+Studied and verified the table of logic gates in QUARTUS II using Verilog programming succesfully.
 
