@@ -67,33 +67,25 @@ Y= A⊕B
 
 
 # PROGRAM:
-module log_gate(a,b,c1,c2,c3,c4,c5,c6,c7);    
-input a,b;    
-output c1,c2,c3,c4,c5,c6,c7;    
-not g1(c1,a);    
-and g2(c2,a,b);     
-or g3(c3,a,b);    
-nand g4(c4,a,b);    
-nor g5(c5,a,b);    
-xor g6(c6,a,b);    
-xnor g7(c7,a,b);     
-endmodule    
+module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);   
+    input a, b;    
+    output c1, c2, c3, c4, c5, c6, c7;    
+    assign c1 = ~a;    
+    assign c2 = a & b;    
+    assign c3 = a | b;    
+    assign c4 = ~(a & b);     
+    assign c5 = ~(a | b);   
+    assign c6 = a ^ b;       
+    assign c7 = ~(a ^ b);    
+endmodule   
 
-
-
-
-# LOGIC SYMBOL AND TRUTH TABLE
-<img width="448" height="858" alt="Screenshot 2025-11-26 131936" src="https://github.com/user-attachments/assets/a73808f5-61a3-4549-a011-f61d2ce81e3c" />
-
-
-# RTL OUTPUT:
-<img width="1613" height="789" alt="Screenshot 2025-12-03 125108" src="https://github.com/user-attachments/assets/4c360f0c-be53-4ba2-9d62-9ba3de562cca" />
-
-
-
+# LOGIC SYMBOL AND TRUTH TABLE  
+# RTL OUTPUT:  
+<img width="1492" height="760" alt="Screenshot 2025-12-04 152250" src="https://github.com/user-attachments/assets/ed6f250a-b8ce-490b-b9f9-1def1e5df79f" />
 
 # WAVEFORM:
-<img width="1475" height="795" alt="Screenshot 2025-12-03 125128" src="https://github.com/user-attachments/assets/9cd72f9d-7541-441b-ba8c-14f43f169aaf" />
+<img width="1480" height="785" alt="Screenshot 2025-12-04 152305" src="https://github.com/user-attachments/assets/e883d57d-1c4f-43a2-8d68-2be9b39f11c2" />
+
 
 
 
