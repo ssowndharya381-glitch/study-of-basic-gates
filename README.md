@@ -3,9 +3,6 @@
 ### REGISTER NUMBER:25009992
 ### EXPERIMENT 1:STUDY OF LOGIC GATES     
 # AIM:
-
-
-
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
 
 # EQIPMENTS REQUIRED:
@@ -81,13 +78,10 @@ endmodule
 
 # LOGIC SYMBOL AND TRUTH TABLE  
 # RTL OUTPUT:  
-<img width="1492" height="760" alt="Screenshot 2025-12-04 152250" src="https://github.com/user-attachments/assets/ed6f250a-b8ce-490b-b9f9-1def1e5df79f" />
+<img width="1492" height="760" alt="Screenshot 2025-12-04 152250" src="https://github.com/user-attachments/assets/32ae65d7-ffde-40da-a3dc-faa55a6680a6" />
 
 # WAVEFORM:
-<img width="1480" height="785" alt="Screenshot 2025-12-04 152305" src="https://github.com/user-attachments/assets/e883d57d-1c4f-43a2-8d68-2be9b39f11c2" />
-
-
-
+<img width="1037" height="544" alt="Screenshot 2025-12-08 184851" src="https://github.com/user-attachments/assets/dc240c8a-fa3c-4135-a461-493d668d69ff" />
 
 # RESULT:
 Studied and verified the table of logic gates in QUARTUS II using Verilog programming succesfully.
