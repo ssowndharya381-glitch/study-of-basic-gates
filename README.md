@@ -81,7 +81,8 @@ endmodule
 <img width="1492" height="760" alt="Screenshot 2025-12-04 152250" src="https://github.com/user-attachments/assets/32ae65d7-ffde-40da-a3dc-faa55a6680a6" />
 
 # WAVEFORM:
-<img width="1037" height="544" alt="Screenshot 2025-12-08 184851" src="https://github.com/user-attachments/assets/dc240c8a-fa3c-4135-a461-493d668d69ff" />
+<img width="1036" height="500" alt="WAVEFORM" src="https://github.com/user-attachments/assets/cd9195e9-0fc4-4629-acc9-2573f7b0d6f7" />
+
 
 # RESULT:
 Studied and verified the table of logic gates in QUARTUS II using Verilog programming succesfully.
